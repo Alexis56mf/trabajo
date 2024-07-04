@@ -1,0 +1,89 @@
+h1{
+   background-color: rgb(252, 252, 252);
+   font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("imagenes/logooooo\ most.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: rgba(15, 10, 10, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #000000f8;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+label {
+    color: #e7e1e1;
+    font-weight: bold;
+}
+
+h2 {
+    color: #ecebeb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("imagenes/logooooo\ most.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 0;
+}
+.faq {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+.question {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0046ad; /* Azul BMW */
+}
+.answer {
+    display: none;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alexis Proyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style2.css">      
+</head>
+<body>
+    <h1><center>Alexis-Motors</center></h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><img src="../Alexis-motors/imagenes/alexis log.png" alt="" width="85" height="65"></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogos.html">Catalogos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="repuestos.html".html">Repuestos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proyectos.html".html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preguntas.html">Preguntas</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <h1><center>Preguntas que seran de ayuda</center></h1>
+    <br>
+    <br>
+    <br>   
+    <div class="faq">
+        <h2>¿En que puedo ayudarte?</h2>
+        <div class="question" onclick="toggleAnswer(1)">¿Cuál es la garantía de un vehículo BMW?</div>
+        <div class="answer" id="answer1">
+            Todos los vehículos BMW vienen con una garantía limitada de fábrica que cubre defectos de material o mano de obra durante un período específico. Puedes consultar los detalles de la garantía en el manual del propietario o en la página web oficial de Alexis-Motors.
+        </div>
+    
+        <div class="question" onclick="toggleAnswer(2)">¿Cómo puedo programar un servicio de mantenimiento para mi BMW?</div>
+        <div class="answer" id="answer2">
+            Puedes programar un servicio de mantenimiento para tu BMW llamando al concesionario autorizado más cercano o utilizando la herramienta de programación en línea disponible en la página web oficial de Alexis-Motors.
+        </div>
+        <div class="question" onclick="toggleAnswer(3)">¿Que ofrece Alexis-Motors luego de mi primer auto comprado?</div>
+        <div class="answer" id="answer3">
+            Alexis-Motors te ofrece un mejor precio a la hora de realiazar tu primer compra, tambien te ofece dos llaves de tu auto por si logra a perder una.
+        </div>
+        <div class="question" onclick="toggleAnswer(4)">¿Que forma de pago ofrecen?</div>
+        <div class="answer" id="answer4">
+            Alexis-Motors te ofrece la froma mas facil de pago,siendo en efectivo y por medio de tarjeta de credito o debito.
+        </div>
+    </div>
+    
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById("answer" + id);
+            if (answer.style.display === "none") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container my-5">
+        <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
+          <div class="container p-4 pb-0">
+            <section class="">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Autos BMW</h6>
+                  <p>
+                    Hola estimados clientes, aqui en este apartado estara la siguientes información
+                  </p>
+                </div>
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Productos</h6>
+                  <p><a href="catalogos.html" class="text-white">Catalogos</a></p>
+                  <p><a href="repuestos.html" class="text-white">Repuestos</a></p>
+                  <p><a href="proyectos.html" class="text-white">Proyectos</a></p>
+                </div>
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contactos</h6>
+                  <p><i class="fas fa-home mr-3"></i> Tegucigalpa, DC 10012, HN</p>
+                  <p><i class="fas fa-envelope mr-3"></i> alexismotors56@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 504 9352 8490</p>
+                  <p><i class="fas fa-print mr-3"></i> + 504 8940 4180</p>
+                </div>
+      
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Siguenos en:</h6>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </section>
+          </div>
+      
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Bmw.com</a>
+          </div>
+        </footer>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+    </body>
+    </html>
